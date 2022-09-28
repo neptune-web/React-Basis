@@ -1,0 +1,54 @@
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  padding: 16px 13px 16px 0px;
+  border-radius: 8px;
+  background-color: $bg-white;
+}
+
+.greenBar {
+  width: 3px;
+  margin-right: 12px;
+  background-color: $text-green;
+}
+
+.content {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.accordionContent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullHeight {
+  transition: max-height 0.2s ease-in-out;
+  max-height: 1080px;
+}
+
+.zeroHeight {
+  transition: max-height 0.2s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.active {
+  background-color: $secondary-tintgreen;
+  color: $text-black;
+}
+
+.inActive {
+  background-color: $bg-white;
+}

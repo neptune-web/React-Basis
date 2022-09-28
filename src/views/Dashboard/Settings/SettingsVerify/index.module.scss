@@ -1,0 +1,71 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  width: 100%;
+  height: calc(100vh - 32px);
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-grey;
+}
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 930px;
+  height: 90vh;
+  border-radius: 20px;
+  border-top: 20px solid $text-green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background-color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  @include respond-to('medium') {
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+  overflow-y: auto;
+}
+.titleArea {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeArea {
+  width: 100%;
+  max-width: 416px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+  --ReactInputVerificationCode-itemSpacing: 10px;
+  --ReactInputVerificationCode-itemWidth: 47px;
+  --ReactInputVerificationCode-itemHeight: 48px;
+  @include respond-to('medium') {
+    --ReactInputVerificationCode-itemWidth: 56px;
+    --ReactInputVerificationCode-itemHeight: 62px;
+  }
+}
+
+.codeArea > div > div {
+  box-shadow: none;
+  border-radius: 15px;
+  background-color: $bg-grey;
+}
+
+.textArea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelArea {
+  margin-top: 13px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

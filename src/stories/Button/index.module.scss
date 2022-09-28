@@ -1,0 +1,88 @@
+@use 'src/styles/colors.scss' as *;
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background: $text-green;
+  font-weight: 500;
+  font-size: 14px;
+  @media (min-width: 1024px) {
+    font-size: 16px;
+  }
+  line-height: 19px;
+  color: white;
+  padding: 15px 21px;
+  box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  width: auto;
+  &:hover:enabled {
+    background: $bg-dark !important;
+    color: $text-green !important;
+    .rightArrow {
+      background-color: $text-green;
+      &:before,
+      &:after {
+        background-color: $text-green;
+      }
+    }
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+.rightArrow {
+  background-color: $bg-white;
+  height: 3px;
+  width: 20px;
+  margin-left: 16px;
+  position: relative;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: '';
+    background-color: $bg-white;
+    position: absolute;
+    height: 2px;
+    width: 15px;
+  }
+
+  &:before {
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    right: -3px;
+    top: -4px;
+    transform: rotate(45deg);
+  }
+}
+
+.h54 {
+  height: 54px;
+}
+.h48 {
+  height: 48px;
+}
+
+.h40 {
+  height: 40px;
+}
+
+.h32 {
+  height: 32px;
+  padding: 7px 13px;
+  font-size: 14px;
+  line-height: 17px;
+  color: $text-white;
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 1,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 2,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 3,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 4,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 5,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 6,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 7,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 8,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  },
+  {
+    "id": 9,
+    "loanID": "BAS1001",
+    "outstandingBalance": 1000,
+    "repaymentAmount": 100,
+    "repaymentEndDate": "02 / 02 / 22"
+  }
+]

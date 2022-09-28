@@ -1,0 +1,44 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 68px 51px 58px 51px;
+  background-color: #f5f5f5;
+}
+
+.mobileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 32px 16px 34px 22px;
+  background-color: #f5f5f5;
+}
+
+.loanRepaymentCard {
+  flex: 1;
+  margin-top: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 45px 15px;
+  border-radius: 0px;
+  @include respond-to('xlarge') {
+    margin-left: -40px;
+    margin-right: -40px;
+    padding: 48px 40px;
+    border-radius: 30px 0px 0px 30px;
+  }
+  background-color: $bg-white;
+}
+
+.invitationContainer {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.invitationContainer::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}

@@ -1,0 +1,85 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  z-index: 50;
+  &:focus {
+    outline: none;
+  }
+  background: rgba(33, 85, 163, 0.16);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.modal {
+  position: relative;
+  width: calc(100vw - 32px);
+  border-radius: 0px;
+  padding: 0px 20px;
+  height: calc(100vh - 32px);
+  border-radius: 20px;
+  @include respond-to('medium') {
+    padding: 16px;
+    height: 70vh;
+    padding: 0px 121px;
+  }
+  max-width: 991px;
+  background-color: white;
+  overflow: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 22px;
+  @include respond-to('medium') {
+    top: 37px;
+  }
+  right: 29px;
+  width: 37px;
+  height: 37px;
+  border-radius: 20px;
+  background: rgba(10, 206, 95, 0.2);
+  color: $text-green;
+  font-size: 30px;
+  line-height: 100%;
+}
+
+.greenBar {
+  display: flex;
+  width: 100%;
+  height: 7px;
+  background: $text-green;
+  border-radius: 7px;
+}
+
+.content {
+  width: 100%;
+  height: calc(100% - 14px);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.tintGreenPart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 7px;
+  background-color: $secondary-tintgreen;
+  padding: 26px;
+}

@@ -1,0 +1,14 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  @include respond-to('medium') {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+}

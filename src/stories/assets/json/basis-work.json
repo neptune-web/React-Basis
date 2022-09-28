@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "title": "Generate Your Limit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus scelerisque elementum donec at dignissim.",
+    "color": "#FDBC64",
+    "backgroundColor": "#F6E5D6"
+  },
+  {
+    "id": 1,
+    "title": "Take a Loan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus scelerisque elementum donec at dignissim.",
+    "color": "#0ACE5F",
+    "backgroundColor": "#E1F8EC"
+  },
+  {
+    "id": 2,
+    "title": "Repay Basis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus scelerisque elementum donec at dignissim.",
+    "color": "#0C1B80",
+    "backgroundColor": "#DCE8F6"
+  }
+]

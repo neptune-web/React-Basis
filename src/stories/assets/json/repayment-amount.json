@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "date": "1. July 2",
+    "amount": 100
+  },
+  {
+    "id": 1,
+    "date": "2. August 2",
+    "amount": 100
+  },
+  {
+    "id": 2,
+    "date": "3. September 2",
+    "amount": 100
+  },
+  {
+    "id": 3,
+    "date": "4. October 2",
+    "amount": 80
+  },
+  {
+    "id": 4,
+    "date": "5. November 2",
+    "amount": 100
+  }
+]

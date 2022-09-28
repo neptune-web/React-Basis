@@ -1,0 +1,42 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.chip {
+  width: max-content;
+  height: 22px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.pending {
+  color: $primary-blue;
+  background-color: $bg-white;
+}
+
+.defaulted {
+  color: $text-white;
+  background-color: $support-red;
+}
+
+.incomplete {
+  color: $primary-blue;
+  background-color: $bg-white;
+}
+
+.cancelled {
+  color: $support-red;
+  background-color: $bg-white;
+}
+
+.repaid {
+  color: $text-green;
+  background-color: $bg-white;
+}
+
+.overdue {
+  color: $text-white;
+  background-color: $support-red;
+}

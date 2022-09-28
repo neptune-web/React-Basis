@@ -1,0 +1,272 @@
+[
+  {
+    "id": 0,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Upcoming",
+    "action": true
+  },
+  {
+    "id": 1,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Upcoming",
+    "action": true
+  },
+  {
+    "id": 2,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Upcoming",
+    "action": true
+  },
+  {
+    "id": 3,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Missed",
+    "action": true
+  },
+  {
+    "id": 4,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 5,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 6,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Missed",
+    "action": true
+  },
+  {
+    "id": 7,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 8,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Future",
+    "action": true
+  },
+  {
+    "id": 9,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 10,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Future",
+    "action": true
+  },
+  {
+    "id": 11,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Missed",
+    "action": true
+  },
+  {
+    "id": 12,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 13,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 14,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 15,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 16,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Missed",
+    "action": true
+  },
+  {
+    "id": 17,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 18,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 19,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Missed",
+    "action": true
+  },
+  {
+    "id": 20,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 21,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 22,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Future",
+    "action": true
+  },
+  {
+    "id": 23,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 24,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 25,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Future",
+    "action": true
+  },
+  {
+    "id": 26,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 27,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Repaid",
+    "action": true
+  },
+  {
+    "id": 28,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Future",
+    "action": true
+  },
+  {
+    "id": 29,
+    "loanId": "BAS1001",
+    "deductionAmount": 123.45,
+    "deductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "status": "Future",
+    "action": true
+  }
+]

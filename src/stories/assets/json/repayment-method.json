@@ -1,0 +1,5 @@
+[
+  { "id": 0, "value": "Semi-Monthly (Twice a Month)", "label": "Semi-Monthly (Twice a Month)" },
+  { "id": 1, "value": "Bi-Weekly (Every Two Weeks)", "label": "Bi-Weekly (Every Two Weeks)" },
+  { "id": 2, "value": "Monthly (Once a Month)", "label": "Monthly (Once a Month)" }
+]

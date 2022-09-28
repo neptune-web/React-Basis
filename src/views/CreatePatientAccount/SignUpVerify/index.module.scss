@@ -1,0 +1,70 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-grey;
+}
+
+.signUpModal {
+  width: 100%;
+  max-width: 1192px;
+  height: 90vh;
+  border-radius: 20px;
+  border-top: 20px solid $text-green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.titleArea {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.codeArea {
+  width: 100%;
+  max-width: 416px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+  --ReactInputVerificationCode-itemSpacing: 10px;
+  --ReactInputVerificationCode-itemWidth: 47px;
+  --ReactInputVerificationCode-itemHeight: 48px;
+  @include respond-to('medium') {
+    --ReactInputVerificationCode-itemWidth: 56px;
+    --ReactInputVerificationCode-itemHeight: 62px;
+  }
+}
+
+.codeArea > div > div {
+  box-shadow: none;
+  border-radius: 15px;
+  background-color: $bg-grey;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  width: 100%;
+  @include respond-to('medium') {
+    width: 346px;
+  }
+}
+
+.label {
+  color: $text-green;
+}

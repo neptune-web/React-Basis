@@ -1,0 +1,12 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  width: 22px;
+  height: 19px;
+  border-radius: 3px;
+  border: 1px solid $text-green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

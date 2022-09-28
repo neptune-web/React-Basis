@@ -1,0 +1,95 @@
+@use 'src/styles/colors.scss' as *;
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $text-green;
+  padding-left: 21px;
+  padding-right: 21px;
+  border: 1px solid $text-green;
+  filter: drop-shadow(0px 6px 58px rgba(196, 203, 214, 0.103611));
+  border-radius: 8px;
+  cursor: pointer;
+  opacity: 1;
+  width: auto;
+  &:hover:enabled {
+    background: $text-green;
+    color: white;
+    .rightArrow {
+      background-color: $text-green;
+      &:before,
+      &:after {
+        background-color: $text-green;
+      }
+    }
+    opacity: 0.8;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: default;
+  }
+}
+
+.rightArrow {
+  background: $text-green;
+  height: 3px;
+  width: 20px;
+  margin-left: 16px;
+  position: relative;
+  cursor: pointer;
+
+  &:before,
+  &:after {
+    content: '';
+    background: $text-green;
+    position: absolute;
+    height: 2px;
+    width: 15px;
+  }
+
+  &:before {
+    right: -3px;
+    bottom: -4px;
+    transform: rotate(-45deg);
+  }
+
+  &:after {
+    right: -3px;
+    top: -4px;
+    transform: rotate(45deg);
+  }
+}
+
+.h54 {
+  height: 54px;
+}
+.h48 {
+  height: 48px;
+}
+
+.h40 {
+  height: 40px;
+}
+
+.h32 {
+  height: 32px;
+  padding: 7px 13px;
+  font-size: 14px;
+  line-height: 17px;
+  color: $text-white;
+}
+
+.h22 {
+  height: 22px;
+  font-size: 10px;
+  line-height: 12px;
+  color: $text-green;
+  padding: 5px 9px;
+}

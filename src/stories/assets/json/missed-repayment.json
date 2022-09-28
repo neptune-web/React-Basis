@@ -1,0 +1,35 @@
+[
+  {
+    "id": 0,
+    "loanId": "BAS1001",
+    "originalDeductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "repaymentAmount": 123.45,
+    "missed": 1,
+    "latePaymentFee": 5,
+    "status": "OVERDUE",
+    "action": true
+  },
+  {
+    "id": 1,
+    "loanId": "BAS1001",
+    "originalDeductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "repaymentAmount": 92.32,
+    "missed": 3,
+    "latePaymentFee": 15,
+    "status": "OVERDUE",
+    "action": true
+  },
+  {
+    "id": 2,
+    "loanId": "BAS1001",
+    "originalDeductionDate": "3 Mar, 2022",
+    "repaymentMethod": "Via Bank Account",
+    "repaymentAmount": 123.87,
+    "missed": 2,
+    "latePaymentFee": 10,
+    "status": "OVERDUE",
+    "action": true
+  }
+]

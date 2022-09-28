@@ -1,0 +1,254 @@
+@use 'src/styles/colors.scss' as *;
+
+.formControl {
+  display: flex;
+  flex-direction: column;
+  max-width: 426px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.formControlWithLabel {
+  display: flex;
+  flex-direction: column;
+  max-width: 426px;
+  width: 100%;
+}
+
+.formControlInvite {
+  display: flex;
+  flex-direction: column;
+  max-width: 287px;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.commonControl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.smallFormControl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.smallFormControlInvite {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
+  width: 100%;
+}
+
+.formLabel {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.formLabelInvite {
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+.formLabelInvitePatient {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.smallFormLabel {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.iconInput {
+  position: relative;
+  height: 66px;
+  width: 100%;
+}
+
+// .smallIconInput {
+//   position: relative;
+//   height: 40px;
+//   width: 100%;
+// }
+
+.formInput {
+  padding-left: 30px;
+  padding-right: 52px;
+  border: 1px solid $text-grey;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 66px;
+  &:focus {
+    border: 1px solid $text-green;
+  }
+}
+
+.formInputInvite {
+  padding-left: 16px;
+  padding-right: 52px;
+  border: 1px solid $text-grey;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 66px;
+  &:focus {
+    border: 1px solid $text-green;
+  }
+}
+
+.commonInput {
+  padding-left: 14px;
+  padding-right: 14px;
+  border: 1px solid $text-green;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 66px;
+}
+
+.smallFormInput {
+  padding-left: 15px;
+  padding-right: 45px;
+  border: 1px solid $text-grey;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  &:focus {
+    border: 1px solid $text-green;
+  }
+}
+
+.formInputError {
+  padding-left: 30px;
+  padding-right: 52px;
+  border: 1px solid $support-red;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 66px;
+  color: $support-red;
+}
+
+.smallFormInputError {
+  padding-left: 15px;
+  padding-right: 45px;
+  border: 1px solid $support-red;
+  border-radius: 6px;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  color: $support-red;
+}
+
+.h54 {
+  height: 54px;
+}
+
+.h40 {
+  height: 40px;
+}
+
+.formIcon {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.errorMsg {
+  font-size: 12px;
+  margin-top: 8px;
+  color: $support-red;
+}
+
+// calendar part
+.calendarArea {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  z-index: 1;
+}
+.react-calendar__tile--active {
+  background-color: $text-green;
+  border-radius: 13px;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+  background-color: $text-green;
+  border-radius: 13px;
+}
+
+.react-tel-input {
+  .form-control {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 40px;
+    :focus {
+      outline: none;
+    }
+  }
+  .flag-dropdown {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 40px;
+    :focus {
+      outline: none;
+    }
+  }
+}
+.react-tel-input .country-list .country {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 10px;
+}
+
+.react-tel-input .country-list .country.highlight {
+  background-color: $text-green;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.react-tel-input .country-list li.country {
+  &:hover {
+    background-color: $text-green;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+}
+
+.textArea {
+  height: 52px;
+  min-width: 280px;
+  border: 1px solid #8692a6;
+  border-radius: 6px;
+  padding: 14px;
+  font-size: 14px;
+  font-family: 'Inter-Regular';
+  &::placeholder {
+    font-size: 12px;
+  }
+}
+
+textarea:focus {
+  outline: none !important;
+  border: 1px solid $text-green;
+}
+
+.disable {
+  opacity: 0.25;
+}

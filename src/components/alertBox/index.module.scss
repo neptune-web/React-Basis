@@ -1,0 +1,31 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 84px;
+  padding-left: 44px;
+  padding-right: 44px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 14px;
+}
+
+.error_container {
+  background-color: #ea384d;
+}
+
+.success_container {
+  background-color: $text-green;
+}
+
+.text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: $text-white;
+}

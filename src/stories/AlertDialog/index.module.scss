@@ -1,0 +1,39 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  width: 50%;
+  position: fixed;
+  z-index: 2;
+  border-radius: 12px;
+  top: 20px;
+  left: 25%;
+  right: 25%;
+  padding: 7px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+}
+
+.error_container {
+    background-color: $support-red;
+}
+
+.success_container {
+    background-color: $support-green;
+}
+
+.closeButton {
+  width: 32px;
+  height: 32px;
+  color: white;
+  font-size: 24px;
+  line-height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+

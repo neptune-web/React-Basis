@@ -1,0 +1,9 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.label {
+  color: $text-green;
+  &:hover {
+    color: rgba($text-green, 0.8);
+  }
+}

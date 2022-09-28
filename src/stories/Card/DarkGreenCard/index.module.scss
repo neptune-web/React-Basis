@@ -1,0 +1,9 @@
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 18px 14px;
+  border-radius: 14px;
+  background-color: $dark-green;
+}

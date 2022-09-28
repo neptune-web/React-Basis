@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "cardName": "BANK OF CHICAGO",
+    "cardNumber": "•••• •••• •••• 6562",
+    "userName": "Victoria Malakova",
+    "type": "Saving",
+    "checked": false,
+    "backgroundColor": "#F6B7CE"
+  },
+  {
+    "id": 1,
+    "cardName": "LOREM BANK USA",
+    "cardNumber": "•••• •••• •••• 8751",
+    "userName": "Victoria Malakova",
+    "type": "Checkin",
+    "checked": false,
+    "backgroundColor": "#FDBC64"
+  },
+  {
+    "id": 2,
+    "cardName": "IPSUM BANK OF AMERICA",
+    "cardNumber": "•••• •••• •••• 6250",
+    "userName": "Victoria Malakova",
+    "type": "Checkin",
+    "checked": false,
+    "backgroundColor": "#0C1B80"
+  },
+  {
+    "id": 3,
+    "cardName": "LOREM BANK",
+    "cardNumber": "•••• •••• •••• 7521",
+    "userName": "Victoria Malakova",
+    "type": "Saving",
+    "checked": false,
+    "backgroundColor": "#033417"
+  }
+]

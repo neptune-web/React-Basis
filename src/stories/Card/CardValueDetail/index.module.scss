@@ -1,0 +1,13 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  width: 100%;
+  background-color: $bg-white;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

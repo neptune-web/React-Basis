@@ -1,0 +1,83 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 232px;
+  @include respond-to('medium') {
+    width: 190px;
+  }
+  height: 44px;
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 217px;
+  @include respond-to('medium') {
+    width: 178px;
+  }
+  height: 44px;
+  padding-left: 14px;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+
+  &:hover:enabled {
+    font-family: 'Inter-Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: $text-green;
+    background: #edfbf3;
+    border-radius: 10px;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: default;
+  }
+}
+
+.activeButton {
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: $text-green;
+  background: #edfbf3;
+  border-radius: 10px;
+}
+
+.deactiveButton {
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: $text-black;
+
+  background: white;
+  mix-blend-mode: normal;
+  border-radius: 10px;
+}
+
+.activeBar {
+  width: 4px;
+  height: 44px;
+  border-radius: 2px;
+  background-color: $text-green;
+}
+.deactiveBar {
+  width: 4px;
+  height: 44px;
+  border-radius: 2px;
+  background-color: white;
+}

@@ -1,0 +1,15 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  flex: 1;
+  height: calc(100vh - 77px); // 77px: header height
+  @include respond-to('large') {
+    height: calc(100vh - 108px); // 108px: header height
+  }
+  overflow: auto;
+}
+
+.background_content {
+  background: $bg-grey;
+}

@@ -1,0 +1,93 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  Settings &:focus {
+    outline: none;
+  }
+  z-index: 1;
+  background: rgba(33, 85, 163, 0.16);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.buttonStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background: $bg-grey;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $text-black;
+
+  &:hover:enabled {
+    background: #cccccc;
+  }
+
+  &:disabled {
+    opacity: 0.2;
+    cursor: default;
+  }
+  z-index: 1;
+}
+
+.h32 {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+}
+
+.menuArea {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 266px;
+  min-width: 200px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 0px 18px 40px rgba(112, 144, 176, 0.12);
+  z-index: 1;
+}
+
+.menuItemArea {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 22px;
+
+  font-family: 'Inter-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #0a1629;
+
+  cursor: pointer;
+  &:hover {
+    color: $text-green;
+    background: rgba(10, 206, 95, 0.2);
+    border-radius: 24px;
+  }
+}

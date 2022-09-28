@@ -1,0 +1,22 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $bg-dark;
+  background-image: url('../assets/images/group.png');
+  background-repeat: repeat;
+}
+.photo_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background: $bg-dark;
+  height: 100vh;
+  opacity: 0.8;
+}

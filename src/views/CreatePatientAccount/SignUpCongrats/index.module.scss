@@ -1,0 +1,42 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  width: 100%;
+  height: calc(100vh - 32px);
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-grey;
+}
+.signUpModal {
+  width: 100%;
+  max-width: 1192px;
+  height: 80vh;
+  border-radius: 20px;
+  border-top: 20px solid $text-green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.titleArea {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  width: 100%;
+  @include respond-to('medium') {
+    width: 346px;
+  }
+}

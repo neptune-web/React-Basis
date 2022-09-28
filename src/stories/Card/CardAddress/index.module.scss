@@ -1,0 +1,39 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.addressCard {
+  width: 405px;
+  background-color: $dark-green;
+  border-radius: 20px;
+  position: relative;
+}
+
+.greenArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 20px 20px 162px 162px;
+  background-color: $text-green;
+  padding-top: 42px;
+  padding-bottom: 208px;
+}
+
+.divider {
+  width: 1px;
+  height: 15px;
+  background-color: $text-grey;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.mobileAddressArea {
+  width: 100%;
+}
+
+.darkGreenArea {
+  padding-left: 22px;
+  padding-right: 22px;
+  background-color: $dark-green;
+}

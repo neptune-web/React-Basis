@@ -1,0 +1,15 @@
+[
+  { "id": 0, "nextRepayment": "01/02/22", "amount": 100.23 },
+  { "id": 1, "nextRepayment": "02/02/22", "amount": 100.23 },
+  { "id": 2, "nextRepayment": "03/02/22", "amount": 100.23 },
+  { "id": 3, "nextRepayment": "04/02/22", "amount": 100.23 },
+  { "id": 4, "nextRepayment": "05/02/22", "amount": 100.23 },
+  { "id": 5, "nextRepayment": "06/02/22", "amount": 100.23 },
+  { "id": 6, "nextRepayment": "07/02/22", "amount": 100.23 },
+  { "id": 7, "nextRepayment": "08/02/22", "amount": 100.23 },
+  { "id": 8, "nextRepayment": "09/02/22", "amount": 100.23 },
+  { "id": 9, "nextRepayment": "10/02/22", "amount": 100.23 },
+  { "id": 10, "nextRepayment": "1/02/22", "amount": 100.23 },
+  { "id": 11, "nextRepayment": "12/02/22", "amount": 100.23 },
+  { "id": 12, "nextRepayment": "01/02/23", "amount": 100.23 }
+]

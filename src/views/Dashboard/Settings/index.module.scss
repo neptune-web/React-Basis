@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 50px 83px 43px 48px;
+}
+
+.mobileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

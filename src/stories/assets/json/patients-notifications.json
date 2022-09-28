@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "(480) 555-0513",
+    "detail": "Invitation sent to phone number",
+    "dateInfo": "Today, 12:04"
+  },
+  {
+    "id": 2,
+    "title": "Johnny@yespapa.com",
+    "detail": "Invitation sent to email address",
+    "dateInfo": "Today, 12:04"
+  },
+  {
+    "id": 3,
+    "title": "(480) 555-0457",
+    "detail": "Invitation sent to phone number",
+    "dateInfo": "Today, 12:04"
+  },
+  {
+    "id": 4,
+    "title": "Johnny@yespapa.com",
+    "detail": "Invitation sent to email address",
+    "dateInfo": "Today, 12:04"
+  },
+  {
+    "id": 5,
+    "title": "(480) 555-2579",
+    "detail": "Invitation sent to phone number",
+    "dateInfo": "Today, 12:04"
+  },
+  {
+    "id": 6,
+    "title": "Johnny@yespapa.com",
+    "detail": "Invitation sent to email address",
+    "dateInfo": "Today, 12:04"
+  }
+]

@@ -1,0 +1,42 @@
+@use 'src/styles/colors.scss' as *;
+
+.formControl {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.formLabel {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  height: 15px;
+  background-color: $text-green;
+  color: $text-white;
+  border-radius: 4px;
+  padding: 0px 8px;
+  font-size: 12px;
+  line-height: 15px;
+  color: $text-white;
+}
+
+.formInput {
+  margin-top: 9px;
+  padding-left: 14px;
+  padding-right: 50px;
+  border: 1px solid $text-green;
+  border-radius: 4px;
+  width: 100%;
+  height: 44px;
+  &:focus {
+    border: 1px solid $text-green;
+  }
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.formIcon {
+  position: absolute;
+  top: 23px;
+  right: 12px;
+}

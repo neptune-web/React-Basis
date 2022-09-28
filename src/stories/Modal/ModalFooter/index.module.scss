@@ -1,0 +1,66 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  z-index: 50;
+  &:focus {
+    outline: none;
+  }
+  background: rgba(33, 85, 163, 0.16);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.modal {
+  position: relative;
+  width: auto;
+  border-radius: 20px;
+  border-top: 20px solid $text-green;
+  margin: 16px;
+  padding: 9px 9px 30px 30px;
+  @include respond-to('medium') {
+    padding: 56px 63px 60px 63px;
+  }
+  max-width: 930px;
+  background-color: white;
+}
+
+.scrollContentArea {
+  max-height: calc(100vh - 394px);
+  height: 100%;
+  scroll-behavior: smooth;
+  background-color: $bg-grey;
+  border-radius: 18px;
+}
+
+.scrollContentRealArea {
+  max-height: calc(100vh - 442px);
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  overflow-y: auto;
+}
+
+.closeButton {
+  position: absolute;
+  top: 37px;
+  right: 29px;
+  width: 37px;
+  height: 37px;
+  border-radius: 20px;
+  background: rgba(10, 206, 95, 0.2);
+  color: $text-green;
+  font-size: 30px;
+  line-height: 100%;
+}

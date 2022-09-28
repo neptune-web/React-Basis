@@ -1,0 +1,63 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  position: absolute;
+  top: 108px;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  z-index: 50;
+  &:focus {
+    outline: none;
+  }
+  background: $bg-grey;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.modal {
+  position: relative;
+  border-radius: 20px;
+  margin: 16px;
+  max-width: 1056px;
+  min-width: 300px;
+  width: 100%;
+  background-color: white;
+
+  display: flex;
+}
+
+.rightArea {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 60px 63px 48px 70px;
+}
+
+.tableGreenArea {
+  background-color: rgba($text-green, 0.2);
+}
+
+.mobileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  z-index: 50;
+  &:focus {
+    outline: none;
+  }
+  background: $bg-grey;
+}
+
+.mobileRightArea {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 36px 21px;
+}

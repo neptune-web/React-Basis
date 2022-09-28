@@ -1,0 +1,42 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  z-index: 50;
+  &:focus {
+    outline: none;
+  }
+  background: rgba(33, 85, 163, 0.16);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+
+.modal {
+  position: relative;
+  padding: 14px 21px 55px 21px;
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  @include respond-to('medium') {
+    margin: 16px;
+    width: auto;
+    height: 90vh;
+    border-radius: 20px;
+    border-top: 20px solid $text-green;
+    padding: 56px 63px 60px 63px;
+  }
+  max-width: 930px;
+  background-color: white;
+  overflow: auto;
+}

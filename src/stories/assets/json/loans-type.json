@@ -1,0 +1,4 @@
+[
+  { "id": 0, "value": "All loans", "label": "All loans" },
+  { "id": 1, "value": "Repaid", "label": "Repaid" }
+]

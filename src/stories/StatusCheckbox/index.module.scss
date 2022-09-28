@@ -1,0 +1,7 @@
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}

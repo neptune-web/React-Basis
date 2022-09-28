@@ -1,0 +1,142 @@
+@use 'src/styles/colors.scss' as *;
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('../stories/assets/fonts/Inter/Inter-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../stories/assets/fonts/Inter/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../stories/assets/fonts/Inter/Inter-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../stories/assets/fonts/Inter/Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('../stories/assets/fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSerifPro-Bold';
+  src: url('../stories/assets/fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gayathri-Bold';
+  src: url('../stories/assets/fonts/Gayathri/Gayathri-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSerifPro-Regular';
+  src: url('../stories/assets/fonts/Source_Serif_Pro/SourceSerifPro-Regular.otf') format('truetype');
+}
+
+:root {
+  /* set font values */
+  --font-primary-light: 'Inter-Light';
+  --font-primary-regular: 'Inter-Regular';
+  --font-primary-medium: 'Inter-Medium';
+  --font-primary-bold: 'Inter-Bold';
+  --font-primary-semibold: 'Inter-SemiBold';
+  --font-secondary-bold: 'SourceSerifPro-Bold';
+  --font-secondary-regular: 'SourceSerifPro-Regular';
+  --font-third: 'Gayathri-Bold';
+
+  /* text font color */
+  --text-primary-color: $text-black;
+  --text-secondary-color: $text-white;
+
+  /* set base values */
+  --text-base-size: 16px;
+  --text-base-color: var(--text-primary-color);
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--font-primary-regular);
+  color: var(--text-base-color);
+  -webkit-appearance: none !important;
+}
+
+/* font color */
+.font-primary-color {
+  color: $text-black;
+}
+
+.font-secondary-color {
+  color: $text-white;
+}
+
+.font-green-color {
+  color: $text-green;
+}
+
+.font-dark-green-color {
+  color: $dark-green;
+}
+
+.font-red-color {
+  color: $support-red;
+}
+
+.font-grey-color {
+  color: $text-grey;
+}
+
+.font-black-color {
+  color: $text-black;
+}
+
+.font-white-color {
+  color: $text-white;
+}
+
+.font-primary-blue-color {
+  color: $primary-blue;
+}
+
+.font-primary-dark-blue-color {
+  color: $primary-dark-blue;
+}
+
+/* font family */
+.font-primary-light {
+  font-family: var(--font-light);
+}
+
+.font-primary-regular {
+  font-family: var(--font-primary-regular);
+}
+
+.font-primary-medium {
+  font-family: var(--font-primary-medium);
+}
+
+.font-primary-bold {
+  font-family: var(--font-primary-bold);
+}
+
+.font-primary-semibold {
+  font-family: var(--font-primary-semibold);
+}
+
+.font-secondary-bold {
+  font-family: var(--font-secondary-bold);
+}
+
+.font-secondary-regular {
+  font-family: var(--font-secondary-regular);
+}
+
+.font-third {
+  font-family: var(--font-third);
+}

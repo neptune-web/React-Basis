@@ -1,0 +1,35 @@
+$spacing-xxs: 8px;
+$spacing-xs: 16px;
+$spacing-sm: 24px;
+$spacing-md: 32px;
+$spacing-lg: 40px;
+$spacing-xl: 56px;
+$spacing-xxl: 72px;
+$spacing-xxxl: 80px;
+$spacing-xxxxl: 96px;
+$spacing-xxxxxl: 120px;
+
+$breakpoints: (
+  'small': (
+    min-width: 320,
+  ),
+  'medium': (
+    min-width: 768px,
+  ),
+  'large': (
+    min-width: 1024px,
+  ),
+  'xlarge': (
+    min-width: 1440px,
+  ),
+) !default;
+
+@mixin respond-to($breakpoint) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $breakpoint))} {
+      @content;
+    }
+  }
+}

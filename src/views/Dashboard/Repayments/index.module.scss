@@ -1,0 +1,12 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 16px;
+  @media (min-width: 1024px) {
+    padding: 77px 54px 36px 48px;
+  }
+}

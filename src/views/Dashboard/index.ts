@@ -1,0 +1,17 @@
+export { default as Dashboard } from './Dashboard';
+export { default as DashboardSpendingAmount } from './Dashboard/SpendingAmount';
+export { default as DashboardRepaymentAmount } from './Dashboard/RepaymentAmount';
+export { default as DashboardSpendingMethod } from './Dashboard/SpendingMethod';
+export { default as DashboardTermsAndConditions } from './Dashboard/TermsAndConditions';
+export { default as DashboardRepayments } from './Repayments';
+export { default as DashboardLoans } from './Loans';
+export { default as DashboardLoansRepayment } from './Loans/Repayment';
+export { default as DashboardCalculator } from './Calculator';
+export { default as DashboardSettings } from './Settings';
+export { default as DashboardSettingsVerify } from './Settings/SettingsVerify';
+export { default as DashboardPayNow } from './PayNow';
+export { default as DashboardPayProcess } from './PayNow/PayProcess';
+export { default as DashboardPayProcessSuccess } from './PayNow/PayProcessSuccess';
+export { default as DashboardPayProcessFailure } from './PayNow/PayProcessFailure';
+export { default as DashboardPayNowSuccess } from './PayNow/PayNowSuccess';
+export { default as DashboardPayNowFailure } from './PayNow/PayNowFailure';

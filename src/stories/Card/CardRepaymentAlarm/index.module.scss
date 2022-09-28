@@ -1,0 +1,17 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 18px 22px 16px 22px;
+  @include respond-to('large') {
+    padding: 19px 44px;
+  }
+  background: linear-gradient(90deg, #d31027 0%, #ea384d 100%);
+  border-radius: 14px;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+@use 'src/styles/variables.scss' as *;
+@use 'src/styles/colors.scss' as *;
+
+.Stepper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.oneStepArea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  .circleButton {
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+  }
+  .stepperText {
+    margin-top: 4px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+  }
+}
+.firstStep {
+  margin-left: 60px;
+}
+.lastStep {
+  margin-right: 60px;
+}
+.activeBGColor {
+  background-color: $text-green;
+}
+.disableBGColor {
+  background-color: $text-green;
+  opacity: 0.5;
+}
+.selectedTextColor {
+  color: black;
+}
+.activeTextColor {
+  color: $text-green;
+}
+.readTextColor {
+  color: black;
+}
+.disableTextColor {
+  color: $text-green;
+  opacity: 0.5;
+}
+.line {
+  width: 100%;
+  height: 1px;
+}

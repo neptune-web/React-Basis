@@ -1,0 +1,50 @@
+@use 'src/styles/colors.scss' as *;
+@use 'src/styles/variables.scss' as *;
+
+.tabArea {
+  display: flex;
+  overflow-x: auto;
+  cursor: pointer;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.tabArea::-webkit-scrollbar {
+  display: none;
+  @include respond-to('medium') {
+    display: flex;
+  }
+}
+
+.tabArea {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  // @include respond-to('medium') {
+  //   -ms-overflow-style: flex; /* IE and Edge */
+  //   scrollbar-width: flex; /* Firefox */
+  // }
+}
+
+.tabItem {
+  // min-width: 83px;
+  text-align: center;
+  width: auto;
+  display: inline-block;
+  justify-content: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.tabItem:first-child,
+.tabItem:last-child {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.divider {
+  width: 51px;
+  height: 2px;
+  background-color: $text-green;
+  margin-top: 17px;
+}

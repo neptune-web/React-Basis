@@ -1,0 +1,113 @@
+{
+  "type": "object",
+  "properties": {
+    "first_name": {
+      "title": "First_name",
+      "type": "string",
+      "default": "",
+      "pattern": "^[a-zA-Z]*$",
+      "errorMessage": {
+        "pattern": "Incorrect First Name Format. Please try again!"
+      }
+    },
+    "last_name": {
+      "title": "Last_name",
+      "type": "string",
+      "default": "",
+      "pattern": "^[a-zA-Z]*$",
+      "errorMessage": {
+        "pattern": "Incorrect Last Name Format. Please try again!"
+      }
+    },
+    "middle_name": {
+      "title": "Middle_name",
+      "type": "string",
+      "default": "",
+      "pattern": "^[a-zA-Z]*$",
+      "errorMessage": {
+        "pattern": "Incorrect Middle Name Format. Please try again!"
+      }
+    },
+    "gender": {
+      "title": "Gender",
+      "enum": ["male", "female", "other"],
+      "errorMessage": {
+        "pattern": "Incorrect Gender. Please try again!"
+      }
+    },
+    "date_of_birth": {
+      "title": "Date_of_birth",
+      "type": "string",
+      "default": "",
+      "pattern": "^[0-9]{4}\\-(0[1-9]|1[012])\\-(0[1-9]|[12][0-9]|3[01])$",
+      "errorMessage": {
+        "pattern": "Incorrect Date of Birth. Please try again!"
+      }
+    },
+    "address_line_1": {
+      "title": "Address_line_1",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$",
+      "errorMessage": {
+        "pattern": "Incorrect Address Line 1 Format. Please try again!"
+      }
+    },
+    "address_line_2": {
+      "title": "Address_line_2",
+      "type": "string",
+      "default": "",
+      "pattern": "^.*$",
+      "errorMessage": {
+        "pattern": "Incorrect Address Line 2 Format. Please try again!"
+      }
+    },
+    "city": {
+      "title": "City",
+      "type": "string",
+      "default": "",
+      "pattern": "^[a-zA-Z\\-]+$",
+      "errorMessage": {
+        "pattern": "Incorrect City Format. Please try again!"
+      }
+    },
+    "zip_code": {
+      "title": "Zip_code",
+      "type": "string",
+      "default": "",
+      "pattern": "^[0-9]{5,}$",
+      "errorMessage": {
+        "pattern": "Incorrect Postal Code Format. Please try again!"
+      }
+    },
+    "phone_number": {
+      "title": "Phone_number",
+      "type": "string",
+      "default": "",
+      "pattern": "^[0-9]{10}$",
+      "errorMessage": {
+        "pattern": "Incorrect Phone Number Format. Please try again!"
+      }
+    },
+    "state_code": {
+      "title": "State_code",
+      "type": "string",
+      "default": "",
+      "pattern": "^[a-zA-Z]{2,}$",
+      "errorMessage": {
+        "pattern": "Incorrect State Format. Please try again!"
+      }
+    }
+  },
+  "required": [
+    "first_name",
+    "last_name",
+    "gender",
+    "date_of_birth",
+    "address_line_1",
+    "city",
+    "zip_code",
+    "phone_number",
+    "state_code"
+  ]
+}

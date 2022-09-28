@@ -1,0 +1,25 @@
+@use 'src/styles/colors.scss' as *;
+
+.inputArea {
+  position: relative;
+  display: flex;
+  max-width: 366px;
+  width: 100%;
+  height: 48px;
+  background-color: #f4f9fd;
+  padding-left: 52px;
+  padding-right: 16px;
+}
+.formIcon {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+.formInput {
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: #f4f9fd;
+}

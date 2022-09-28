@@ -1,0 +1,29 @@
+@use 'src/styles/colors.scss' as *;
+
+.radio {
+  appearance: none;
+  border: 1px solid $text-green;
+  background-color: white;
+  &:checked {
+    background-color: $text-green;
+  }
+  &:focus {
+    outline: none;
+  }
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke,
+    opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-duration: 200ms;
+  margin-top: 4px;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  float: left;
+  cursor: pointer;
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
